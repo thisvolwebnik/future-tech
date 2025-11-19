@@ -8,3 +8,10 @@
 @use "./base/typogrophy";
 
 // Components
+@use "./components/icon";
+@use "./components/logo";
+@use "./components/button";
+@use "./components/burger-button";
+
+//Layout
+@use "./layout/header";
