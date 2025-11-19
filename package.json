@@ -1,0 +1,35 @@
+{
+  "name": "future-tech",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint:js": "eslint .",
+    "lint:js:fix": "eslint . --fix",
+    "lint:scss": "stylelint \"**/*.scss\" --allow-empty-input",
+    "lint:scss:fix": "stylelint \"**/*.scss\" --fix --allow-empty-input",
+    "lint": "npm run lint:js && npm run lint:css && npm run lint:html",
+    "lint:fix": "npm run lint:js:fix && npm run lint:css:fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "clean": "rm -rf dist",
+    "clean:all": "rm -rf dist node_modules",
+    "prepare": "npm run lint:fix && npm run format"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "globals": "^16.5.0",
+    "prettier": "^3.6.2",
+    "sass": "^1.94.1",
+    "stylelint": "^16.25.0",
+    "stylelint-config-standard-scss": "^16.0.0",
+    "stylelint-scss": "^6.12.1",
+    "vite": "^7.2.2"
+  }
+}
