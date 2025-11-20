@@ -12,6 +12,9 @@
 @use "./components/logo";
 @use "./components/button";
 @use "./components/burger-button";
+@use "./components/badge";
+@use "./components/socials";
 
 //Layout
 @use "./layout/header";
+@use "./layout/footer";
