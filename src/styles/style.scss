@@ -14,7 +14,12 @@
 @use "./components/burger-button";
 @use "./components/badge";
 @use "./components/socials";
+@use "./components/metrics";
+@use "./components/team";
+@use "./components/resources-preview";
+@use "./components/advantage-card";
 
 //Layout
 @use "./layout/header";
 @use "./layout/footer";
+@use "./layout/hero";
