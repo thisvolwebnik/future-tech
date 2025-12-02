@@ -18,8 +18,13 @@
 @use "./components/team";
 @use "./components/resources-preview";
 @use "./components/advantage-card";
+@use "./components/tag";
+@use "./components/tile";
+@use "./components/card";
 
 //Layout
 @use "./layout/header";
 @use "./layout/footer";
 @use "./layout/hero";
+@use "./layout/section";
+@use "./layout/list";
