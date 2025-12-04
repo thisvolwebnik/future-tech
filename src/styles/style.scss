@@ -21,6 +21,10 @@
 @use "./components/tag";
 @use "./components/tile";
 @use "./components/card";
+@use "./components/tabs";
+@use "./components/person-card";
+@use "./components/blog-actions";
+@use "./components/blog-card";
 
 //Layout
 @use "./layout/header";
