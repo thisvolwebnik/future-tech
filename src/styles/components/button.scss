@@ -29,4 +29,8 @@
     background-color: var(--color-accent);
     border-color: var(--color-accent);
   }
+
+  &--dark-gray {
+    background-color: var(--color-dark-10);
+  }
 }
