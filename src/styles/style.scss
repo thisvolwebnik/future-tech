@@ -5,7 +5,7 @@
 @use "./base/fonts";
 @use "./base/base";
 @use "./base/utils";
-@use "./base/typogrophy";
+@use "./base/typography";
 
 // Components
 @use "./components/icon";
@@ -26,6 +26,8 @@
 @use "./components/blog-actions";
 @use "./components/blog-card";
 @use "./components/download-info";
+@use "./components/rating-view.scss";
+@use "./components/review-card.scss";
 
 // Layout
 @use "./layout/header";
@@ -33,3 +35,4 @@
 @use "./layout/hero";
 @use "./layout/section";
 @use "./layout/list";
+@use "./layout/bordered-grid.scss";
