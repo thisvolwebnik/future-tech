@@ -28,6 +28,7 @@
 @use "./components/download-info";
 @use "./components/rating-view.scss";
 @use "./components/review-card.scss";
+@use "./components/about-card.scss";
 
 // Layout
 @use "./layout/header";
@@ -36,3 +37,4 @@
 @use "./layout/section";
 @use "./layout/list";
 @use "./layout/bordered-grid.scss";
+@use "./layout/about.scss";
