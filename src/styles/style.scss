@@ -29,6 +29,9 @@
 @use "./components/rating-view.scss";
 @use "./components/review-card.scss";
 @use "./components/about-card.scss";
+@use "./components/summary";
+@use "./components/news-card";
+@use "./components/news";
 
 // Layout
 @use "./layout/header";
@@ -38,3 +41,4 @@
 @use "./layout/list";
 @use "./layout/bordered-grid.scss";
 @use "./layout/about.scss";
+@use "./layout/hero-alt";
