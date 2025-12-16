@@ -1,7 +1,6 @@
 @use "../helpers" as *;
 
 .section {
-  overflow: hidden;
 
   &__header {
     padding-block: fluid(120, 40);

@@ -8,6 +8,7 @@
 @use "./base/typography";
 
 // Components
+@use "./components/expandable-content";
 @use "./components/icon";
 @use "./components/logo";
 @use "./components/button";
@@ -34,6 +35,8 @@
 @use "./components/news";
 @use "./components/video-player";
 @use "./components/video-card";
+@use "./components/tabel-of-contents";
+@use "./components/blog-detaails";
 
 // Layout
 @use "./layout/header";

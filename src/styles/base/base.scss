@@ -57,6 +57,10 @@ button {
   }
 }
 
+section {
+  overflow: hidden;
+}
+
 :focus-visible {
   outline: rem(2) dashed var(--color-light);
   outline-offset: rem(4);

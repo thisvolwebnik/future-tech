@@ -41,7 +41,7 @@
   }
 
   &--bottom {
-    &::before {
+    &::after {
       content: "";
       top: 100%;
     }
@@ -50,7 +50,6 @@
   &--right {
     &::before,
     &::after {
-      content: "";
       left: 100%;
     }
   }
@@ -58,7 +57,6 @@
   &--left {
     &::before,
     &::after {
-      content: "";
       right: 100%;
     }
   }
@@ -87,8 +85,7 @@
 
     content: "";
     right: 0;
-    background: url("/icons/arrow-top-right_dark.svg") center no-repeat
-      var(--color-accent);
+    background: url("/icons/arrow-top-right_dark.svg") center no-repeat var(--color-accent);
     border-radius: 50%;
   }
 }
