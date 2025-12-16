@@ -1,8 +1,10 @@
 import "../styles/style.scss";
-import Header from "./Header";
-import TabsCollection from "./Scripts";
-import VideoPlayerCollection from "./VideoPlayer";
+import Header from "./Header.js";
+import TabsCollection from "./Scripts.js";
+import VideoPlayerCollection from "./VideoPlayer.js";
+import ExpandableContentCollection from "./ExpandableContent.js";
 
 new Header();
 new TabsCollection();
 new VideoPlayerCollection();
+new ExpandableContentCollection();
