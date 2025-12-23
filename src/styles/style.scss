@@ -27,9 +27,9 @@
 @use "./components/blog-actions";
 @use "./components/blog-card";
 @use "./components/download-info";
-@use "./components/rating-view.scss";
-@use "./components/review-card.scss";
-@use "./components/about-card.scss";
+@use "./components/rating-view";
+@use "./components/review-card";
+@use "./components/about-card";
 @use "./components/summary";
 @use "./components/news-card";
 @use "./components/news";
@@ -38,6 +38,13 @@
 @use "./components/tabel-of-contents";
 @use "./components/blog-detaails";
 @use "./components/report-card";
+@use "./components/accordion";
+@use "./components/accordion-group";
+@use "./components/feedback-form";
+@use "./components/checkbox";
+@use "./components/select";
+@use "./components/field";
+@use "./components/contacts-card";
 
 // Layout
 @use "./layout/header";
@@ -45,6 +52,7 @@
 @use "./layout/hero";
 @use "./layout/section";
 @use "./layout/list";
-@use "./layout/bordered-grid.scss";
-@use "./layout/about.scss";
+@use "./layout/bordered-grid";
+@use "./layout/about";
 @use "./layout/hero-alt";
+@use "./layout/contact";
