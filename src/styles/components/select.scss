@@ -1,9 +1,17 @@
 @use "../helpers" as *;
 
 .select {
+  &__label {
+    @include visually-hidden;
+  }
+
   &__original-control {
     @include mobile-above {
       @include visually-hidden;
+    }
+
+    @include mobile {
+      min-width: rem(80);
     }
   }
 
@@ -17,12 +25,7 @@
 
   &__body,
   &__button {
-    user-select: none;
     cursor: pointer;
-
-    * {
-      pointer-events: none;
-    }
   }
 
   &__button {
@@ -31,6 +34,7 @@
     align-items: center;
     column-gap: rem(6);
     transition-duration: var(--transition-duration);
+    user-select: none;
 
     @include laptop {
       column-gap: rem(4);
